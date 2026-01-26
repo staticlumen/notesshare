@@ -34,6 +34,7 @@ const unitsData = {
             { name: "Extra Readings", file: "units/unit1/extra-readings.pdf" },
             { name: "Data Analytics", file: "units/unit1/data-analytics.pdf" },
             { name: "Legal Challenges in IOT", file: "units/unit1/legal-challenges-in-iot.pdf" },
+            { name: "Full Notes In one pdf", file: "units/unit1/full-notes-in-one-pdf.pdf" },
             // ← Add more PDFs here by copying the format above
         ]
     },
