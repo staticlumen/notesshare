@@ -35,8 +35,11 @@ A lightweight static site for sharing course notes by unit. It renders a units g
 - Colors and layout: `styles.css`
 - Unit names and PDFs: `script.js`
 - Page copy: `index.html`
+<img width="1919" height="1021" alt="Screenshot 2026-03-10 233242" src="https://github.com/user-attachments/assets/0b37a839-9f67-41f1-8dec-3ac6af1d1587" />
+
 
 ## Browser support
 
 Works in modern browsers (Chrome, Firefox, Safari, Edge).
+
 
