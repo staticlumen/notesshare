@@ -1,52 +1,42 @@
 # Lecture Notes Download Center
 
-A modern, stylish static website for sharing lecture notes with your friends.
+A lightweight static site for sharing course notes by unit. It renders a units grid, lets students drill into each unit, and downloads PDFs directly.
 
-## Features
+## What it does
 
-- 🎨 Modern, gradient-based design
-- 📱 Fully responsive layout
-- ✨ Smooth animations and transitions
-- 📚 Organized by units
-- 📥 Easy PDF downloads
+- Lists units and how many PDFs each unit has
+- Shows a per-unit PDF list with download links
+- Simple, responsive, animated UI
+- Includes a WhatsApp footer for submitting additional materials
 
-## Setup
+## Project structure
 
-1. Place your PDF files in the following structure:
-   ```
-   units/
-   ├── unit1/
-   │   ├── introduction.pdf
-   │   ├── chapter1.pdf
-   │   └── chapter2.pdf
-   ├── unit2/
-   │   ├── overview.pdf
-   │   ├── week1.pdf
-   │   └── week2.pdf
-   ├── unit3/
-   │   ├── study-guide.pdf
-   │   ├── practice.pdf
-   │   └── solutions.pdf
-   ├── unit4/
-   │   ├── main.pdf
-   │   └── supplementary.pdf
-   └── unit5/
-       ├── review.pdf
-       ├── summary.pdf
-       └── exam-prep.pdf
-   ```
+```
+.
+├── index.html
+├── styles.css
+├── script.js
+└── units/
+    ├── unit1/
+    ├── unit2/
+    ├── unit3/
+    ├── unit4/
+    └── unit5/
+```
 
-2. Update `script.js` to match your actual PDF file names and paths.
+## Add or update notes
 
-3. Open `index.html` in a web browser to view the site.
+1. Put PDFs in `units/unitX/` folders (for example `units/unit1/intro-to-internet-of-things.pdf`).
+2. Update the `unitsData` object in `script.js` to match the unit name and PDF file paths.
+3. Open `index.html` in a browser (or host it on GitHub Pages).
 
-## Customization
+## Customize
 
-- **Colors**: Edit the CSS variables in `styles.css` under `:root`
-- **Units**: Modify the `unitsData` object in `script.js`
-- **Styling**: Adjust styles in `styles.css`
+- Colors and layout: `styles.css`
+- Unit names and PDFs: `script.js`
+- Page copy: `index.html`
 
-## Browser Support
+## Browser support
 
-Works on all modern browsers (Chrome, Firefox, Safari, Edge).
+Works in modern browsers (Chrome, Firefox, Safari, Edge).
 
